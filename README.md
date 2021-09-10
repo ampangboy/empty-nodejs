@@ -8,4 +8,5 @@ Run build command on the working directory
     docker build . -t <username>\expose-port-node
 
 Once the docker image is build locally, simply run the following command
+
     docker run -d -t -p 8080:8080 <username>\expose-port-node
