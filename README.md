@@ -10,3 +10,5 @@ Run build command on the working directory
 Once the docker image is build locally, simply run the following command
 
     docker run -d -t -v <host directory>:\usr\src\app  -p 8080:8080 <username>\expose-port-node
+    
+Now, you can go inside the docker virtual system in interactive mode and create node js application
